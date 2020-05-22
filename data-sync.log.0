@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-05-22T17:08:31</date>
+  <millis>1590147511714</millis>
+  <sequence>0</sequence>
+  <logger>com.theram.it.KafkaRedisSyncIT</logger>
+  <level>INFO</level>
+  <class>com.theram.it.KafkaRedisSyncIT</class>
+  <method>$anonfun$new$1</method>
+  <thread>163</thread>
+  <message>**Getting connected to localhost:6001</message>
+</record>
+<record>
+  <date>2020-05-22T17:08:51</date>
+  <millis>1590147531955</millis>
+  <sequence>1</sequence>
+  <logger>org.glassfish.jersey.internal.inject.Providers</logger>
+  <level>WARNING</level>
+  <class>org.glassfish.jersey.internal.inject.Providers</class>
+  <method>checkProviderRuntime</method>
+  <thread>163</thread>
+  <message>A provider io.confluent.kafka.schemaregistry.rest.resources.SubjectVersionsResource registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider io.confluent.kafka.schemaregistry.rest.resources.SubjectVersionsResource will be ignored. </message>
+</record>
+<record>
+  <date>2020-05-22T17:08:51</date>
+  <millis>1590147531955</millis>
+  <sequence>2</sequence>
+  <logger>org.glassfish.jersey.internal.inject.Providers</logger>
+  <level>WARNING</level>
+  <class>org.glassfish.jersey.internal.inject.Providers</class>
+  <method>checkProviderRuntime</method>
+  <thread>163</thread>
+  <message>A provider io.confluent.kafka.schemaregistry.rest.resources.ServerMetadataResource registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider io.confluent.kafka.schemaregistry.rest.resources.ServerMetadataResource will be ignored. </message>
+</record>
+<record>
+  <date>2020-05-22T17:08:51</date>
+  <millis>1590147531955</millis>
+  <sequence>3</sequence>
+  <logger>org.glassfish.jersey.internal.inject.Providers</logger>
+  <level>WARNING</level>
+  <class>org.glassfish.jersey.internal.inject.Providers</class>
+  <method>checkProviderRuntime</method>
+  <thread>163</thread>
+  <message>A provider io.confluent.kafka.schemaregistry.rest.resources.ConfigResource registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider io.confluent.kafka.schemaregistry.rest.resources.ConfigResource will be ignored. </message>
+</record>
+<record>
+  <date>2020-05-22T17:08:51</date>
+  <millis>1590147531955</millis>
+  <sequence>4</sequence>
+  <logger>org.glassfish.jersey.internal.inject.Providers</logger>
+  <level>WARNING</level>
+  <class>org.glassfish.jersey.internal.inject.Providers</class>
+  <method>checkProviderRuntime</method>
+  <thread>163</thread>
+  <message>A provider io.confluent.kafka.schemaregistry.rest.resources.SubjectsResource registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider io.confluent.kafka.schemaregistry.rest.resources.SubjectsResource will be ignored. </message>
+</record>
+<record>
+  <date>2020-05-22T17:08:51</date>
+  <millis>1590147531955</millis>
+  <sequence>5</sequence>
+  <logger>org.glassfish.jersey.internal.inject.Providers</logger>
+  <level>WARNING</level>
+  <class>org.glassfish.jersey.internal.inject.Providers</class>
+  <method>checkProviderRuntime</method>
+  <thread>163</thread>
+  <message>A provider io.confluent.kafka.schemaregistry.rest.resources.CompatibilityResource registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider io.confluent.kafka.schemaregistry.rest.resources.CompatibilityResource will be ignored. </message>
+</record>
+<record>
+  <date>2020-05-22T17:08:51</date>
+  <millis>1590147531955</millis>
+  <sequence>6</sequence>
+  <logger>org.glassfish.jersey.internal.inject.Providers</logger>
+  <level>WARNING</level>
+  <class>org.glassfish.jersey.internal.inject.Providers</class>
+  <method>checkProviderRuntime</method>
+  <thread>163</thread>
+  <message>A provider io.confluent.kafka.schemaregistry.rest.resources.ModeResource registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider io.confluent.kafka.schemaregistry.rest.resources.ModeResource will be ignored. </message>
+</record>
+<record>
+  <date>2020-05-22T17:08:51</date>
+  <millis>1590147531956</millis>
+  <sequence>7</sequence>
+  <logger>org.glassfish.jersey.internal.inject.Providers</logger>
+  <level>WARNING</level>
+  <class>org.glassfish.jersey.internal.inject.Providers</class>
+  <method>checkProviderRuntime</method>
+  <thread>163</thread>
+  <message>A provider io.confluent.kafka.schemaregistry.rest.resources.SchemasResource registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider io.confluent.kafka.schemaregistry.rest.resources.SchemasResource will be ignored. </message>
+</record>
+<record>
+  <date>2020-05-22T17:08:52</date>
+  <millis>1590147532450</millis>
+  <sequence>8</sequence>
+  <logger>com.theram.it.KafkaRedisSyncIT</logger>
+  <level>INFO</level>
+  <class>com.theram.it.KafkaRedisSyncIT</class>
+  <method>$anonfun$new$2</method>
+  <thread>163</thread>
+  <message>**Now connecting to producer io.vertx.kafka.client.producer.impl.KafkaProducerImpl@6d2c69a2</message>
+</record>
+</log>

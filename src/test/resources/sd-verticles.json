@@ -1,0 +1,19 @@
+{
+  "redis-connection-url": "redis://127.0.0.1:6379",
+  "redis-type": "STANDALONE",
+  "redis-cp-maxpool-size": 8,
+  "redis-cp-maxwait-size": 32,
+  "kafka-bootstrap-server" : "127.0.0.1:6001",
+  "kafka-offset-reset" : "groupoffset",
+  "kafka-schema-registry-url":"http://127.0.0.1:6002",
+  "kafka-commit-offset":"true",
+  "kafka-consumer-group":"kafka-refdata-sync",
+  "kafka-key-deserializer": "io.confluent.kafka.serializers.KafkaAvroDeserializer",
+  "kafka-value-deserializer": "io.confluent.kafka.serializers.KafkaAvroDeserializer",
+  "kafka-key-serializer": "io.confluent.kafka.serializers.KafkaAvroSerializer",
+  "kafka-value-serializer": "io.confluent.kafka.serializers.KafkaAvroSerializer"
+}
+
+
+
+
