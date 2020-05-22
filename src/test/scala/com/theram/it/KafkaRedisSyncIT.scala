@@ -72,7 +72,7 @@ class KafkaRedisSyncIT extends VerticleTesting[RefDataKafkaVerticle] with Matche
 
   def createCameraKey(): Record = {
     val keyRecord = new GenericData.Record(smol.SCHEMA$)
-    keyRecord.put("name", "latency")
+    keyRecord.put("latency", "1")
     keyRecord
   }
 
@@ -80,7 +80,7 @@ class KafkaRedisSyncIT extends VerticleTesting[RefDataKafkaVerticle] with Matche
   def createCameraValue(): Record = {
     val currentTime = System.currentTimeMillis()
     val valueRecord = new GenericData.Record(smol.SCHEMA$)
-    valueRecord.put("unit", "second")
+    valueRecord.put("bandwidth", "0.8MBps")
     valueRecord
   }
 }

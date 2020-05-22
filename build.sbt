@@ -20,7 +20,7 @@ libraryDependencies ++= Vector(
   Library.vertx_config
 )
 libraryDependencies += "io.confluent" % "kafka-avro-serializer" % "5.5.0"
-libraryDependencies += "io.github.embeddedkafka" %% "embedded-kafka-schema-registry" % "5.5.1-SNAPSHOT" % Test
+libraryDependencies += "io.github.embeddedkafka" %% "embedded-kafka-schema-registry" % "5.5.0.1" % Test
 
 packageOptions += ManifestAttributes(
   ("Main-Verticle", "scala:RefDataKafkaVerticle"))

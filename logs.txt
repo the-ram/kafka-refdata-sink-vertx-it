@@ -1,0 +1,225 @@
+[info] Loading global plugins from /Users/Ramachandran.Ayakkad/.sbt/1.0/plugins
+[info] Loading settings for project kafka-refdata-sink-vertx-it-build from plugins.sbt ...
+[info] Loading project definition from /Users/Ramachandran.Ayakkad/MG/02.PROJECTS/00.EVENTS/03.INFRA/kafka-refdata-sink-vertx-it/project
+[info] Loading settings for project kafka-refdata-sink-vertx-it from build.sbt ...
+[info] Set current project to kafka-refdata-sink-vertx-it (in build file:/Users/Ramachandran.Ayakkad/MG/02.PROJECTS/00.EVENTS/03.INFRA/kafka-refdata-sink-vertx-it/)
+[success] Total time: 0 s, completed 22 May, 2020 6:51:18 PM
+[warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+[info] Compiling 5 Scala sources to /Users/Ramachandran.Ayakkad/MG/02.PROJECTS/00.EVENTS/03.INFRA/kafka-refdata-sink-vertx-it/target/scala-2.13/classes ...
+[info] Done compiling.
+[info] Compiling 2 Scala sources and 1 Java source to /Users/Ramachandran.Ayakkad/MG/02.PROJECTS/00.EVENTS/03.INFRA/kafka-refdata-sink-vertx-it/target/scala-2.13/test-classes ...
+[warn] Getting the hostname SDI-HL-Ram.local was slow (5001.985239 ms). This is likely because the computer's hostname is not set. You can set the hostname with the command: scutil --set HostName $(scutil --get LocalHostName).
+[info] Done compiling.
+[2020-05-22 18:51:27,742] INFO KafkaAvroDeserializerConfig values: 
+	bearer.auth.token = [hidden]
+	proxy.port = -1
+	schema.reflection = false
+	auto.register.schemas = true
+	max.schemas.per.subject = 1000
+	basic.auth.credentials.source = URL
+	specific.avro.reader = false
+	value.subject.name.strategy = class io.confluent.kafka.serializers.subject.TopicNameStrategy
+	schema.registry.url = [http://localhost:8081]
+	basic.auth.user.info = [hidden]
+	proxy.host = 
+	schema.registry.basic.auth.user.info = [hidden]
+	bearer.auth.credentials.source = STATIC_TOKEN
+	key.subject.name.strategy = class io.confluent.kafka.serializers.subject.TopicNameStrategy
+ (io.confluent.kafka.serializers.KafkaAvroDeserializerConfig:179)
+[2020-05-22 18:51:27,870] INFO KafkaAvroDeserializerConfig values: 
+	bearer.auth.token = [hidden]
+	proxy.port = -1
+	schema.reflection = false
+	auto.register.schemas = true
+	max.schemas.per.subject = 1000
+	basic.auth.credentials.source = URL
+	specific.avro.reader = false
+	value.subject.name.strategy = class io.confluent.kafka.serializers.subject.TopicNameStrategy
+	schema.registry.url = [http://localhost:8081]
+	basic.auth.user.info = [hidden]
+	proxy.host = 
+	schema.registry.basic.auth.user.info = [hidden]
+	bearer.auth.credentials.source = STATIC_TOKEN
+	key.subject.name.strategy = class io.confluent.kafka.serializers.subject.TopicNameStrategy
+ (io.confluent.kafka.serializers.KafkaAvroDeserializerConfig:179)
+[2020-05-22 18:51:43,778] INFO SchemaRegistryConfig values: 
+	access.control.allow.headers = 
+	access.control.allow.methods = 
+	access.control.allow.origin = 
+	authentication.method = NONE
+	authentication.realm = 
+	authentication.roles = [*]
+	authentication.skip.paths = []
+	avro.compatibility.level = 
+	compression.enable = true
+	debug = false
+	host.name = 192.168.0.152
+	idle.timeout.ms = 30000
+	inter.instance.headers.whitelist = []
+	inter.instance.protocol = http
+	kafkastore.bootstrap.servers = [localhost:6001]
+	kafkastore.connection.url = 
+	kafkastore.group.id = 
+	kafkastore.init.timeout.ms = 60000
+	kafkastore.sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	kafkastore.sasl.kerberos.min.time.before.relogin = 60000
+	kafkastore.sasl.kerberos.service.name = 
+	kafkastore.sasl.kerberos.ticket.renew.jitter = 0.05
+	kafkastore.sasl.kerberos.ticket.renew.window.factor = 0.8
+	kafkastore.sasl.mechanism = GSSAPI
+	kafkastore.security.protocol = PLAINTEXT
+	kafkastore.ssl.cipher.suites = 
+	kafkastore.ssl.enabled.protocols = TLSv1.2,TLSv1.1,TLSv1
+	kafkastore.ssl.endpoint.identification.algorithm = 
+	kafkastore.ssl.key.password = [hidden]
+	kafkastore.ssl.keymanager.algorithm = SunX509
+	kafkastore.ssl.keystore.location = 
+	kafkastore.ssl.keystore.password = [hidden]
+	kafkastore.ssl.keystore.type = JKS
+	kafkastore.ssl.protocol = TLS
+	kafkastore.ssl.provider = 
+	kafkastore.ssl.trustmanager.algorithm = PKIX
+	kafkastore.ssl.truststore.location = 
+	kafkastore.ssl.truststore.password = [hidden]
+	kafkastore.ssl.truststore.type = JKS
+	kafkastore.timeout.ms = 500
+	kafkastore.topic = _schemas
+	kafkastore.topic.replication.factor = 3
+	kafkastore.write.max.retries = 5
+	kafkastore.zk.session.timeout.ms = 30000
+	listeners = [http://localhost:6002]
+	master.eligibility = true
+	metric.reporters = []
+	metrics.jmx.prefix = kafka.schema.registry
+	metrics.num.samples = 2
+	metrics.sample.window.ms = 30000
+	metrics.tag.map = []
+	mode.mutability = false
+	port = 8081
+	request.logger.name = io.confluent.rest-utils.requests
+	resource.extension.class = []
+	resource.extension.classes = []
+	resource.static.locations = []
+	response.mediatype.default = application/vnd.schemaregistry.v1+json
+	response.mediatype.preferred = [application/vnd.schemaregistry.v1+json, application/vnd.schemaregistry+json, application/json]
+	rest.servlet.initializor.classes = []
+	schema.compatibility.level = backward
+	schema.providers = []
+	schema.registry.group.id = schema-registry
+	schema.registry.inter.instance.protocol = 
+	schema.registry.resource.extension.class = []
+	schema.registry.zk.namespace = schema_registry
+	shutdown.graceful.ms = 1000
+	ssl.cipher.suites = []
+	ssl.client.auth = false
+	ssl.client.authentication = NONE
+	ssl.enabled.protocols = []
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = [hidden]
+	ssl.keymanager.algorithm = 
+	ssl.keystore.location = 
+	ssl.keystore.password = [hidden]
+	ssl.keystore.reload = false
+	ssl.keystore.type = JKS
+	ssl.keystore.watch.location = 
+	ssl.protocol = TLS
+	ssl.provider = 
+	ssl.trustmanager.algorithm = 
+	ssl.truststore.location = 
+	ssl.truststore.password = [hidden]
+	ssl.truststore.type = JKS
+	websocket.path.prefix = /ws
+	websocket.servlet.initializor.classes = []
+	zookeeper.set.acl = false
+ (io.confluent.kafka.schemaregistry.rest.SchemaRegistryConfig:347)
+[2020-05-22 18:51:43,793] INFO Logging initialized @45713ms to org.eclipse.jetty.util.log.Slf4jLog (org.eclipse.jetty.util.log:169)
+[2020-05-22 18:51:43,874] INFO Adding listener: http://localhost:6002 (io.confluent.rest.ApplicationServer:344)
+[2020-05-22 18:51:43,971] INFO Initializing KafkaStore with broker endpoints: PLAINTEXT://localhost:6001 (io.confluent.kafka.schemaregistry.storage.KafkaStore:108)
+[2020-05-22 18:51:43,972] INFO Registering schema provider for AVRO: io.confluent.kafka.schemaregistry.avro.AvroSchemaProvider (io.confluent.kafka.schemaregistry.storage.KafkaSchemaRegistry:210)
+[2020-05-22 18:51:43,973] INFO Registering schema provider for JSON: io.confluent.kafka.schemaregistry.json.JsonSchemaProvider (io.confluent.kafka.schemaregistry.storage.KafkaSchemaRegistry:210)
+[2020-05-22 18:51:43,973] INFO Registering schema provider for PROTOBUF: io.confluent.kafka.schemaregistry.protobuf.ProtobufSchemaProvider (io.confluent.kafka.schemaregistry.storage.KafkaSchemaRegistry:210)
+[2020-05-22 18:51:44,014] INFO Creating schemas topic _schemas (io.confluent.kafka.schemaregistry.storage.KafkaStore:193)
+[2020-05-22 18:51:44,015] WARN Creating the schema topic _schemas using a replication factor of 1, which is less than the desired one of 3. If this is a production environment, it's crucial to add more brokers and increase the replication factor of the topic. (io.confluent.kafka.schemaregistry.storage.KafkaStore:203)
+[2020-05-22 18:51:44,183] INFO Kafka store reader thread starting consumer (io.confluent.kafka.schemaregistry.storage.KafkaStoreReaderThread:110)
+[2020-05-22 18:51:44,192] INFO Initialized last consumed offset to -1 (io.confluent.kafka.schemaregistry.storage.KafkaStoreReaderThread:144)
+[2020-05-22 18:51:44,193] INFO [kafka-store-reader-thread-_schemas]: Starting (io.confluent.kafka.schemaregistry.storage.KafkaStoreReaderThread:66)
+[2020-05-22 18:51:44,282] INFO Wait to catch up until the offset at 0 (io.confluent.kafka.schemaregistry.storage.KafkaStore:304)
+[2020-05-22 18:51:44,296] INFO Joining schema registry with Kafka-based coordination (io.confluent.kafka.schemaregistry.storage.KafkaSchemaRegistry:297)
+[2020-05-22 18:51:47,475] INFO Finished rebalance with master election result: Assignment{version=1, error=0, master='sr-1-57986b40-c332-41b2-9588-23b2c98dc5d2', masterIdentity=version=1,host=192.168.0.152,port=6002,scheme=http,masterEligibility=true} (io.confluent.kafka.schemaregistry.masterelector.kafka.KafkaGroupMasterElector:228)
+[2020-05-22 18:51:47,479] INFO Wait to catch up until the offset at 1 (io.confluent.kafka.schemaregistry.storage.KafkaStore:304)
+[2020-05-22 18:51:47,667] INFO jetty-9.4.24.v20191120; built: 2019-11-20T21:37:49.771Z; git: 363d5f2df3a8a28de40604320230664b9c793c16; jvm 1.8.0_242-b08 (org.eclipse.jetty.server.Server:359)
+[2020-05-22 18:51:47,706] INFO DefaultSessionIdManager workerName=node0 (org.eclipse.jetty.server.session:333)
+[2020-05-22 18:51:47,706] INFO No SessionScavenger set, using defaults (org.eclipse.jetty.server.session:338)
+[2020-05-22 18:51:47,708] INFO node0 Scavenging every 600000ms (org.eclipse.jetty.server.session:140)
+[2020-05-22 18:51:48,321] INFO HV000001: Hibernate Validator 6.0.17.Final (org.hibernate.validator.internal.util.Version:21)
+[2020-05-22 18:51:48,615] INFO JVM Runtime does not support Modules (org.eclipse.jetty.util.TypeUtil:201)
+[2020-05-22 18:51:48,616] INFO Started o.e.j.s.ServletContextHandler@3990c637{/,null,AVAILABLE} (org.eclipse.jetty.server.handler.ContextHandler:825)
+[2020-05-22 18:51:48,632] INFO Started o.e.j.s.ServletContextHandler@7f9bf405{/ws,null,AVAILABLE} (org.eclipse.jetty.server.handler.ContextHandler:825)
+[2020-05-22 18:51:48,647] INFO Started NetworkTrafficServerConnector@4de19fb3{HTTP/1.1,[http/1.1]}{localhost:6002} (org.eclipse.jetty.server.AbstractConnector:330)
+[2020-05-22 18:51:48,647] INFO Started @50567ms (org.eclipse.jetty.server.Server:399)
+[2020-05-22 18:51:48,657] INFO KafkaAvroSerializerConfig values: 
+	bearer.auth.token = [hidden]
+	proxy.port = -1
+	schema.reflection = false
+	auto.register.schemas = true
+	max.schemas.per.subject = 1000
+	basic.auth.credentials.source = URL
+	value.subject.name.strategy = class io.confluent.kafka.serializers.subject.TopicNameStrategy
+	schema.registry.url = [http://localhost:6002]
+	basic.auth.user.info = [hidden]
+	proxy.host = 
+	schema.registry.basic.auth.user.info = [hidden]
+	bearer.auth.credentials.source = STATIC_TOKEN
+	key.subject.name.strategy = class io.confluent.kafka.serializers.subject.TopicNameStrategy
+ (io.confluent.kafka.serializers.KafkaAvroSerializerConfig:179)
+[2020-05-22 18:51:48,657] INFO KafkaAvroSerializerConfig values: 
+	bearer.auth.token = [hidden]
+	proxy.port = -1
+	schema.reflection = false
+	auto.register.schemas = true
+	max.schemas.per.subject = 1000
+	basic.auth.credentials.source = URL
+	value.subject.name.strategy = class io.confluent.kafka.serializers.subject.TopicNameStrategy
+	schema.registry.url = [http://localhost:6002]
+	basic.auth.user.info = [hidden]
+	proxy.host = 
+	schema.registry.basic.auth.user.info = [hidden]
+	bearer.auth.credentials.source = STATIC_TOKEN
+	key.subject.name.strategy = class io.confluent.kafka.serializers.subject.TopicNameStrategy
+ (io.confluent.kafka.serializers.KafkaAvroSerializerConfig:179)
+[2020-05-22 18:51:48,715] INFO Stopped NetworkTrafficServerConnector@4de19fb3{HTTP/1.1,[http/1.1]}{localhost:6002} (org.eclipse.jetty.server.AbstractConnector:380)
+[2020-05-22 18:51:48,715] INFO node0 Stopped scavenging (org.eclipse.jetty.server.session:158)
+[2020-05-22 18:51:48,717] INFO Stopped o.e.j.s.ServletContextHandler@7f9bf405{/ws,null,UNAVAILABLE} (org.eclipse.jetty.server.handler.ContextHandler:1016)
+[2020-05-22 18:51:48,724] INFO Stopped o.e.j.s.ServletContextHandler@3990c637{/,null,UNAVAILABLE} (org.eclipse.jetty.server.handler.ContextHandler:1016)
+[2020-05-22 18:51:48,726] INFO Shutting down schema registry (io.confluent.kafka.schemaregistry.storage.KafkaSchemaRegistry:1084)
+[2020-05-22 18:51:48,726] INFO [kafka-store-reader-thread-_schemas]: Shutting down (io.confluent.kafka.schemaregistry.storage.KafkaStoreReaderThread:66)
+[2020-05-22 18:51:48,727] INFO [kafka-store-reader-thread-_schemas]: Stopped (io.confluent.kafka.schemaregistry.storage.KafkaStoreReaderThread:66)
+[2020-05-22 18:51:48,727] INFO [kafka-store-reader-thread-_schemas]: Shutdown completed (io.confluent.kafka.schemaregistry.storage.KafkaStoreReaderThread:66)
+[2020-05-22 18:51:48,729] INFO KafkaStoreReaderThread shutdown complete. (io.confluent.kafka.schemaregistry.storage.KafkaStoreReaderThread:253)
+[2020-05-22 18:51:48,732] ERROR Unexpected exception in schema registry group processing thread (io.confluent.kafka.schemaregistry.masterelector.kafka.KafkaGroupMasterElector:200)
+org.apache.kafka.common.errors.WakeupException
+	at org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient.maybeTriggerWakeup(ConsumerNetworkClient.java:511)
+	at org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient.poll(ConsumerNetworkClient.java:275)
+	at org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient.poll(ConsumerNetworkClient.java:233)
+	at org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient.poll(ConsumerNetworkClient.java:224)
+	at io.confluent.kafka.schemaregistry.masterelector.kafka.SchemaRegistryCoordinator.poll(SchemaRegistryCoordinator.java:120)
+	at io.confluent.kafka.schemaregistry.masterelector.kafka.KafkaGroupMasterElector$1.run(KafkaGroupMasterElector.java:197)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[info] KafkaRedisSyncIT:
+[info] RefDataKafkaVerticle
+[info] - should start kafka and sink a message *** FAILED ***
+[info]   org.apache.kafka.common.errors.TimeoutException: Topic a-special-topic not present in metadata after 60000 ms.
+[info]   ...
+[info] Run completed in 1 minute, 21 seconds.
+[info] Total number of tests run: 1
+[info] Suites: completed 1, aborted 0
+[info] Tests: succeeded 0, failed 1, canceled 0, ignored 0, pending 0
+[info] *** 1 TEST FAILED ***
+[error] Failed tests:
+[error] 	com.theram.it.KafkaRedisSyncIT
+[error] (Test / test) sbt.TestsFailedException: Tests unsuccessful
+[error] Total time: 90 s (01:30), completed 22 May, 2020 6:52:48 PM
